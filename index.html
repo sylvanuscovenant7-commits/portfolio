@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website HTML CSS Only | Covenant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Covenant Monday</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Skill</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Covenant Monday</h1>
+            <h3>And I'm a</h3>
+            <p>
+A web developer is a tech professional who builds and maintains websites and web applications. They work with programming languages like HTML, CSS, and JavaScript to create responsive, user-friendly interfaces. Web developers often collaborate with designers and backend engineers to ensure seamless functionality and performance across devices. Their role is crucial in shaping the digital experience, from simple landing pages to complex platforms.
+</p>
+
+
+            <div class="btn-box">
+                <a href="#">Hire me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+
+            <div class="home-sci">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <div class="container contact-inner">
+            <h2 class="section-title">Get in touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>Email: <a href="mailto:hello@covenant.dev">sylvanuscovenant7@gmai.com</a></p>
+                    <p>Phone: <a href="tel:+07016852180">+234 7016 852 180</a></p>
+                    <p>Location: Benin, Nigeria</p>
+                    <div class="contact-social">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" novalidate>
+                    <label>
+                        <span>Your name</span>
+                        <input type="text" name="name" required placeholder="Your full name">
+                    </label>
+                    <label>
+                        <span>Your email</span>
+                        <input type="email" name="email" required placeholder="you@example.com">
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="5" required placeholder="Tell me about your project"></textarea>
+                    </label>
+                    <button type="submit" class="btn primary">Send message</button>
+                    <p class="form-note">This form is front-end only — it won't send without a backend. I can wire it to email or Netlify forms if you want.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+            
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container about-inner">
+            <div class="about-img">
+                <img src="images/home.jpg" alt="Covenant portrait">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I build clean, accessible, and responsive websites. I enjoy turning ideas into user-friendly interfaces and collaborating with designers and backend engineers to ship polished products.</p>
+
+                <ul class="skills">
+                    <li>HTML &amp; CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React &amp; Frontend Tooling</li>
+                    <li>Responsive Design</li>
+                </ul>
+
+                <div class="about-ctas">
+                    <a href="#hire" class="btn primary">Hire me</a>
+                    <a href="#contact" class="btn secondary">Let's talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="services">
+        <div class="container services-inner">
+            <h2 class="section-title">Services I Offer</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon"><i class="bx bx-code-alt"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive interfaces with modern HTML, CSS and JavaScript. I prioritize accessibility and performance.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon"><i class="bx bx-palette"></i></div>
+                    <h3>UI Design</h3>
+                    <p>Designing clean, usable layouts and components that make products easy to use and delightful to interact with.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon"><i class="bx bx-rocket"></i></div>
+                    <h3>Performance & Optimization</h3>
+                    <p>Improving load times, reducing bundle sizes, and optimizing critical rendering paths for faster UX.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container portfolio-inner">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="portfolio-grid">
+                <figure class="project-card">
+                    <img src="images/project 1.jpg" alt="Project 1">
+                    <figcaption>
+                        <h3>Project One</h3>
+                        <p>Responsive landing page with UI components and animations.</p>
+                        <div class="tech">HTML · CSS · JS</div>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-card">
+                    <img src="images/project 2.jpg" alt="Project 2">
+                    <figcaption>
+                        <h3>Project Two</h3>
+                        <p>Interactive dashboard prototype with charts and filters.</p>
+                        <div class="tech">React · D3 · CSS</div>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-card">
+                    <img src="images/project 3.jpg" alt="Project 3">
+                    <figcaption>
+                        <h3>Project Three</h3>
+                        <p>Performance-optimized blog platform with SEO best practices.</p>
+                        <div class="tech">Gatsby · GraphQL · Netlify</div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills-section">
+        <div class="container skills-inner">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <div class="skill-row">
+                        <span class="skill-label">HTML &amp; CSS</span>
+                        <div class="skill-bar"><span style="--val:95%"></span></div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-label">JavaScript</span>
+                        <div class="skill-bar"><span style="--val:85%"></span></div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-label">React</span>
+                        <div class="skill-bar"><span style="--val:78%"></span></div>
+                    </div>
+                </div>
+
+                <div class="skills-column">
+                    <div class="skill-circle">
+                        <svg viewBox="0 0 36 36" class="circular">
+                            <path class="bg" d="M18 2.0845a15.9155 15.9155 0 1 0 0 31.831 15.9155 15.9155 0 1 0 0-31.831" />
+                            <path class="progress" stroke-dasharray="85,100" d="M18 2.0845a15.9155 15.9155 0 1 0 0 31.831" />
+                            <text x="18" y="20.35" class="percent">85%</text>
+                        </svg>
+                        <div class="circle-label">Performance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
